@@ -14,7 +14,7 @@
 <body>
   <div class="blogWrapper h-screen overflow-hidden relative">
 
-    <!-- Site Menu Links  -->
+    <!-- Site Menu Links  (for small screens)-->
     <div
          class="dropMenuLinks ease-in-out duration-300 flex flex-col justify-between overflow-y-auto h-screen z-50 absolute top-0 -right-[2000px] backdrop-blur-sm sm:p-12 p-8 bg-white/90 w-screen ">
       <!-- Row - 1  -->
@@ -85,7 +85,7 @@
                       d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z"
                       clip-rule="evenodd" />
               </svg>
-              <span class="text-sm p-3 group-hover:text-indigo-600">Iskon Events</span>
+              <span class="text-sm p-3 group-hover:text-indigo-600">Iskcon Events</span>
             </a>
 
             <a class="flex group items-center relative font-semibold ease-in-out duration-300 pb relative after:content-[''] after:bottom-0 after:h-1 after:w-0 after:left-0 after:absolute after:bg-indigo-600 hover:after:w-full after:ease-in-out after:duration-300 "
@@ -234,52 +234,51 @@
         </div>
 
         <!-- Hero Section  -->
-        <div
-             class="heroSectionContent mt-20 h-[calc(90vh-0px)]  w-full  flex items-center flex-col text-white py-8 relative">
-          <img src="./Images/OMSymbol.webp" alt="Image of OM" class="OmSymbol" />
-          <div class="top text-center pt-8">
-            <h1>
-              <p class="projectName text-[4em]">Moksh</p>
-            </h1>
-            <span class="text-xs italic mt-8 block sm:font-semibold">
-              <h2>A Spiritual Productivity Tool for Mental Wellness.</h2>
+        <div class="heroSectionContent mt-20 h-[calc(90vh-0px)] w-full flex items-center flex-col text-black text-semibold py-8 relative gap-[5px]">
+          <img src="./Images/OMSymbol.webp" alt="Image of OM" class="OmSymbol sm:mr-[0px]" />
+          <div class="top text-center md:pt-20">
+            <h6>
+              <p class="projectName text-[4em] text-white">Moksh</p>
+            </h6>
+            <span class="text-lg italic mt-8 block sm:font-semibold">
+              <h2 class="font-semibold">A Spiritual Productivity Tool for Mental Wellness.</h2>
             </span>
           </div>
           <div class="bottom text-center w-full px-8 sm:px-0 sm:w-1/2 mt-4 sm:mt-4 flex flex-col items-center">
-            <p class="text-sm leading-6 text-center font-semibold">
-            <h3>It is a spiritual productivity tool designed for individuals who
-              want to unlock their potential and achieve true balance in life.</h3>
+            <p class="text-lg leading-6 text-center font-semibold">
+              <h3 class="font-semibold text-lg sm:text-2xl">It is a spiritual productivity tool designed for individuals who want to unlock their potential and achieve true balance in life.</h3>
             </p>
-
-            <div
-                 class="scrollDown w-fit mt-4 circle border-2 border-white p-2 rounded-full flex items-center h-12 ease-in-out duration-300 hover:border-indigo-600 group absolute bottom-5 left-1/2 -translate-x-1/2">
-              <span class="h-2/4 w-2 inline-block rounded-full bg-white group-hover:bg-indigo-600 animate-bounce">
-              </span>
+        
+            <div class="scrollDown w-fit mt-4 circle border-2 border-white p-2 rounded-full flex items-center h-12 ease-in-out duration-300 hover:border-indigo-600 group absolute bottom-5 left-1/2 -translate-x-1/2 -translate-y-12 sm:-translate-y-0">
+              <span class="h-2/4 w-2 inline-block rounded-full bg-white group-hover:bg-indigo-600 animate-bounce"></span>
             </div>
-
           </div>
         </div>
+        
       </div>
 
       <div class="contentSection flex flex-col items-center pt-12 md:py-0 bg-gray-100" id="mentalHealthComponent">
 
         <!-- Mental Health Problems  -->
-        <div class="mentalHealthVideo my-8 lg:w-3/4" id="mentalhealth">
-          <h1 class="text-indigo-600 text-center mb-10 uppercase font-semibold">
-            <span class="pb-2 border-double border-b-4 border-indigo-600" id="mental">Mental Health Problems</span>
+        <div class="mental-health-video-container my-8 lg:w-3/4">
+          <h1 class="text-xl mb-5 text-center uppercase font-semibold text-indigo-600">
+            <span class="border-b-4 border-double border-indigo-600 pb-2" id="mental">Mental Health Problems</span>
           </h1>
-          <iframe src="https://www.youtube.com/embed/BEsKgEGRjYU" title="YouTube video player" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen="" class="h-[400px] w-full my-12 lg:mx-auto"></iframe>
-          <!-- <p class="text-justify px-1 font-base text-lg font-serif mb-6"> -->
-          <div style="text-align: center;">
-           <p class="text-base leading-8 text-center font-semibold mb-10">
-           There are numerous mental problems affecting the people in modern society, including fear, false egos, anxiety, comparisons, competitions, peer pressure, and a stressful work environment. Mental health issues can lead to physical discomforts such as headaches, stomach aches, difficulty sleeping, irritability, and an inability to focus. If left unaddressed, chronic stress can exacerbate these symptoms and give rise to more severe health concerns, including anxiety, hypertension, and reduced immunity.
-           </p>
+          <div class="video-responsive">
+            <iframe src="https://www.youtube.com/embed/BEsKgEGRjYU" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen class="w-full h-[500px] lg:h-[500px] mx-auto"></iframe>
+          </div>
+          <div class="text-center">
+            <p class="text-lg leading-7 font-semibold my-10">
+              In today's fast-paced world, mental health problems like fear, false egos, anxiety, comparisons, competitions, peer pressure, and a stressful work environment affect many people. These issues can manifest as physical discomforts such as headaches, stomach aches, difficulty sleeping, irritability, and an inability to focus. If left unaddressed, chronic stress can escalate and lead to more severe health concerns, including anxiety, hypertension, and reduced immunity.
+            </p>
           </div>
         </div>
+        
+        
 
-        <!-- Moksh Features  -->
+        <!-- Moksh Features All Cards -->
         <div class="features w-full lg:px-12 flex flex-col justify-center items-center md:pb-8">
           <h1 class="text-indigo-600 text-center mb-10 uppercase font-semibold">
             <span class="pb-2 border-double border-b-4 border-indigo-600">Features</span>
@@ -289,7 +288,7 @@
 
             <!-- Card AR -->
             <div
-                 class="card cardAr mb-8 md:shadow-2xl h-full md:rounded-md md:overflow-hidden ease-in-out duration-700 relative -right-[2000px] sm:right-0 md:hover:scale-95 hover:scale-100 flex flex-col">
+                 class="card cardAr mb-8 md:shadow-2xl h-full md:rounded-md md:overflow-hidden ease-in-out duration-700 relative p-4 sm:right-0 md:hover:scale-95 hover:scale-100 flex flex-col">
               <img src="./Images/armed.webp" alt="armed" class="md:h-[300px] w-full" />
 
               <div class="card-details flex flex-col items-center grow py-4">
@@ -320,7 +319,7 @@
 
             <!-- Card Iskon -->
             <div
-                 class="card cardIskon mb-8 md:shadow-2xl h-full md:rounded-md md:overflow-hidden ease-in-out duration-700 relative -right-[2000px] sm:right-0 md:hover:scale-95 hover:scale-100 flex flex-col">
+                 class="card cardIskon mb-8 md:shadow-2xl h-full md:rounded-md md:overflow-hidden ease-in-out duration-700 relative p-4 sm:right-0 md:hover:scale-95 hover:scale-100 flex flex-col">
               <img src="./Images/modernIskon.jpeg" alt="modernIskon" class="md:h-[300px] w-full" />
 
               <div class="card-details flex flex-col items-center grow py-4">
@@ -346,7 +345,7 @@
 
             <!-- Card Story -->
             <div
-                 class="card cardStory mb-8 md:shadow-2xl h-full md:rounded-md md:overflow-hidden ease-in-out duration-700 relative -right-[2000px] sm:right-0 md:hover:scale-95 hover:scale-100 flex flex-col">
+                 class="card cardStory mb-8 md:shadow-2xl h-full md:rounded-md md:overflow-hidden ease-in-out duration-700 relative p-4 sm:right-0 md:hover:scale-95 hover:scale-100 flex flex-col">
               <img src="./Images/modernDivine.webp" alt="modernDivine" class="md:h-[300px] w-full" />
 
               <div class="card-details flex flex-col items-center grow py-4">
@@ -372,7 +371,7 @@
 
             <!-- Card Pomodoro -->
             <div
-                 class="card cardClock mb-8 md:shadow-2xl h-full md:rounded-md md:overflow-hidden ease-in-out duration-700 relative -right-[2000px] sm:right-0 md:hover:scale-95 hover:scale-100 flex flex-col">
+                 class="card cardClock mb-8 md:shadow-2xl h-full md:rounded-md md:overflow-hidden ease-in-out duration-700 relative p-4 sm:right-0 md:hover:scale-95 hover:scale-100 flex flex-col">
               <img src="./Images/modernPomodoro.webp" alt="modernClock" class="md:h-[300px] w-full" />
 
               <div class="card-details flex flex-col items-center grow py-4">
@@ -399,7 +398,7 @@
 
             <!-- Card Shlok -->
             <div
-                 class="card cardShlok mb-8 md:shadow-2xl h-full md:rounded-md md:overflow-hidden ease-in-out duration-700 relative -right-[2000px] sm:right-0 md:hover:scale-95 hover:scale-100 flex flex-col">
+                 class="card cardShlok mb-8 md:shadow-2xl h-full md:rounded-md md:overflow-hidden ease-in-out duration-700 relative p-4  sm:right-0 md:hover:scale-95 hover:scale-100 flex flex-col">
               <img src="./Images/modernShlok.webp" alt="modernShlok" class="md:h-[300px] w-full" />
 
               <div class="card-details flex flex-col items-center grow py-4">
@@ -428,7 +427,7 @@
 
             <!-- Card Rejuvenate -->
             <div
-                 class="card cardRejuvenate  md:shadow-2xl h-full md:rounded-md md:overflow-hidden ease-in-out duration-700 relative -right-[2000px] sm:right-0 md:hover:scale-95 hover:scale-100 flex flex-col">
+                 class="card cardRejuvenate  md:shadow-2xl h-full md:rounded-md md:overflow-hidden ease-in-out duration-700 relative p-4  sm:right-0 md:hover:scale-95 hover:scale-100 flex flex-col">
               <img src="./Images/modernRejuvenate.webp" alt="modernRejuvenate" class="md:h-[300px] w-full" />
 
               <div class="card-details flex flex-col items-center grow py-4">
