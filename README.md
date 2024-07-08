@@ -16,7 +16,7 @@
 ### _Unlock your potential and achieve true balance in life with Moksh!_
 
 <p align="center">
-  <a href="https://discord.com/invite/Jmc97prqjb">
+  <a href="https://discord.gg/QapWBRZbVe">
     <img alt="Static Badge" src="https://img.shields.io/badge/Discord-blue?style=for-the-badge&logo=discord&label=%20Join%20Official%20">
   </a>
 </p>
@@ -29,11 +29,7 @@
 ## 🐦 Latest Tweet
 
 
-<p>
-  <a href="https://www.twitter.com/ExperienceMoksh">
-    <img src="https://gtce.itsvg.in/api?username=ExperienceMoksh" alt="Latest Tweet">
-  </a>
-</p>
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/ExperienceMoksh)
 
 
 ## About The Project 💫
